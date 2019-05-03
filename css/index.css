@@ -179,6 +179,13 @@ header nav ul {
   justify-content: space-around;
   align-items: center;
 }
+header nav ul li {
+  margin: auto 15px;
+  font-size: 1.5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -189,6 +196,13 @@ header nav ul {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .top-section {
+  border-bottom: 3px dashed #c0c0c0;
+}
+.home .top-section div hr {
+  border-style: dashed;
+  width: 105%;
 }
 .home .content-section {
   margin: 30px 0;
